@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/prav/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "/home/prav/.local/share/nvim/site/pack/packer/start/formatter.nvim",
+    url = "https://github.com/mhartington/formatter.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/prav/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -108,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/prav/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/home/prav/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

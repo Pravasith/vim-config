@@ -48,6 +48,10 @@ return require("packer").startup(function(use)
 	use({ "mhartington/formatter.nvim" })
 	use({ "terrortylor/nvim-comment" })
 	use({ "nvim-tree/nvim-tree.lua" })
+	use({
+		"luisiacc/gruvbox-baby",
+		branch = "main",
+	})
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

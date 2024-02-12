@@ -1,7 +1,7 @@
 function ShadeItUp(colorChoice)
 	local colors = { "github_light", "catppuccin", "gruvbox-baby" }
-	local color = colors[colorChoice]
-	print("Theme set to " + color + ".")
+	local color = colors[colorChoice or 1]
+	print("Theme set to", color)
 
 	require("catppuccin").setup({
 		flavour = "macchiato", -- latte, frappe, macchiato, mocha

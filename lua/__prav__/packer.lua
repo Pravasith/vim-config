@@ -27,6 +27,22 @@ return require("packer").startup(function(use)
 	})
 
 	use({ "catppuccin/nvim", as = "catppuccin" })
+
+	-- Install without configuration
+	use({ "projekt0n/github-nvim-theme" })
+
+	-- Or with configuration
+	use({
+		"projekt0n/github-nvim-theme",
+		config = function()
+			require("github-theme").setup({
+				-- ...
+			})
+
+			-- vim.cmd("colorscheme github_dark")
+		end,
+	})
+
 	use({ "mbbill/undotree" })
 	use({ "tpope/vim-fugitive" })
 	use({

@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/prav/.local/share/nvim/site/pack/packer/start/formatter.nvim",
     url = "https://github.com/mhartington/formatter.nvim"
   },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/home/prav/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
+  },
   ["gruvbox-baby"] = {
     loaded = true,
     path = "/home/prav/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
